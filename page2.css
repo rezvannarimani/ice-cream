@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+  }
+
+  body  {
+    background-color: hsl(356, 74%, 95%);
+  }
+
+  nav {
+    z-index: 1;
+    background-color: snow;
+    display: flex;
+    top: 0;
+    padding: 20px;
+    margin-top: 6;
+    position: sticky;
+    justify-content: space-evenly;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    color: orangered;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: hsl(356, 74%, 95%);
+    width: 200px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card-image {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-image img{
+    width: 200px;
+    height: 210px;
+    border-radius: 8px;
+    }
+
+.card button {
+    border-radius: 0.5rem;
+    background-color: bisque;
+    border-color: bisque;
+    color: orangered;
+    margin-top: 0.4rem;
+    margin-left: 2rem;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card button:hover {
+    border-color: orangered;
+}
+
+.card:hover {
+    color: black;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all ls ease;
+}
+
+.D5 {
+    display: flex;
+
+    background-color: rgb(190, 229, 245);
+    padding: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .bu1 {
+    width: 20vw;
+    height: 15vh;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: larger;
+    border-radius: 0.8rem;
+    background-color: bisque;
+    color: orangered;
+    border-color: bisque;
+  }
+
+  .bu2 {
+    width: 20vw;
+    height: 15vh;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: larger;
+    border-radius: 0.8rem;
+    background-color: bisque;
+    color: orangered;
+    border-color: bisque;
+  }
+
+  .bu3 {
+    width: 20vw;
+    height: 15vh;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    font-size: larger;
+    border-radius: 0.8rem;
+    background-color: bisque;
+    color: orangered;
+    border-color: bisque;
+  }
+
+  .bu1:hover {
+    border-color: orangered;
+  }
+
+  .bu2:hover {
+    border-color: orangered;
+  }
+
+  .bu3:hover {
+    border-color: orangered;
+  }
+
+  h2 {
+    margin-top: 1.5rem;
+  }
+
+  .pic1 {
+  height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/products/PDP-BrambleberryCrisp-VolPint-1500px_576x.jpg?v=1646238144);
+}
+
+  .pic1:hover {
+    background-image: url(https://jenis.com/cdn/shop/products/PDP-BrambleberryCrisp-Texture-1500px_576x.jpg?v=1646321849);
+  }
+
+  .pic2 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_SkilletCinnamonRoll-VolcanoPint-1500px_1100x.jpg?v=1648493759);
+  }
+
+  .pic2:hover {
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_SkilletCinnamonRoll-Texture-1500px_576x.jpg?v=1648493759);
+  }
+
+
+  .pic3 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/products/PDP-BananaCreamPudding-VolcanoPint-1500px_576x.jpg?v=1646238003);
+  }
+
+  .pic3:hover {
+    background-image: url(https://jenis.com/cdn/shop/products/PDP-BananaCreamPudding-Texture-1500px_576x.jpg?v=1646840687);
+  }
+
+  .pic4 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_DarkChocolateTruffle-VolcanoPint-1500px_576x.jpg?v=1646678472);
+  }
+
+  .pic4:hover {
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_DarkChocolateTruffle-Texture-1500px_576x.jpg?v=1646678472);
+  }
+
+  .pic5 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/products/PDP-BrownButterAlmondBrittle-VolcanoPint_576x.jpg?v=1646238250);
+  }
+
+  .pic5:hover {
+    background-image: url(https://jenis.com/cdn/shop/products/PDP-BrownButterAlmondBrittle-Texture-1500px_576x.jpg?v=1646773445);
+  }
+
+  .pic6 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_PowderedJellyDonut-VolcanoPint-1500px_576x.jpg?v=1648302210);
+  }
+
+  .pic6:hover {
+    background-image: url(https://jenis.com/cdn/shop/products/PDP-PowderedJellyDonut-Texture-1500px_576x.jpg?v=1656447827);
+  }
+
+  .pic7 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_GreenMintChip-VolcanoPint-1500px_576x.jpg?v=1646930851);
+  }
+
+  .pic7:hover {
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_GreenMintChip-Texture-1500px_576x.jpg?v=1646930851);
+  }
+
+  .pic8 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_SaltyCaramel-VolcanoPint-1500pc_576x.jpg?v=1648297864);
+  }
+
+  .pic8:hover {
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_SaltyCaramel-Texture-1500px_576x.jpg?v=1648297864);
+  }
+
+  .pic9 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/files/PDP-RumBall-VolcanoPint-1500px_576x.jpg?v=1695841971);
+  }
+
+  .pic9:hover {
+    background-image: url(https://jenis.com/cdn/shop/files/PDP-RumBall-Texture-1500px_576x.jpg?v=1697227391);
+  }
+
+  .pic10 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_PineappleUpsideDownCake-VolcanoPint-1500px_576x.jpg?v=1648212203);
+  }
+
+  .pic10:hover {
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_PineappleUpsideDownCake-Texture-1500px_576x.jpg?v=1648212203);
+  }
+
+  .pic11 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_FroseSorbet-VolcanoPint-1500px_576x.jpg?v=1646679122);
+  }
+
+  .pic11:hover {
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_FroseSorbet-Texture-1500px_576x.jpg?v=1646679122);
+  }
+
+  .pic12 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_WildberryLavender-VolcanoPint-1500px_576x.jpg?v=1648672978);
+  }
+
+  .pic12:hover {
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_WildberryLavender-Texture-1500px_576x.jpg?v=1648672978);
+  }
+
+  .pic13 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis-CreamPuff-VolcanoPint-1500px_576x.jpg?v=1646400975);
+  }
+
+  .pic13:hover {
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis-CreamPuff-Texture-1500px_576x.jpg?v=1646400975);
+  }
+
+  .pic14 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_GoldenNectar-VolcanoPint-1500px_576x.jpg?v=1646930246);
+  }
+
+  .pic14:hover {
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_GoldenNectar-Texture-1500px_576x.jpg?v=1646930246);
+  }
+
+  .pic15 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/products/PDP-WeddingCake-VolcanoPint-1500px_576x.jpg?v=1660146015);
+  }
+
+  .pic15:hover {
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_WeddingCake-Texture-1500px_576x.jpg?v=1660146015);
+  }
+
+  .pic16 {
+    height: 220px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_LemonBarVolcanoPint-1500px_576x.jpg?v=1648134797);
+  }
+
+  .pic16:hover {
+    background-image: url(https://jenis.com/cdn/shop/products/Jenis_LemonBar-Texture-1500px_576x.jpg?v=1648134797);
+  }
